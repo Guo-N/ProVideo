@@ -6,12 +6,21 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.32760416666666664" />
         <entry key="app/src/main/res/layout/brief_card_view_item.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/layout/category_card_view_item.xml" value="0.5404713948567709" />
-        <entry key="app/src/main/res/layout/fragment_community.xml" value="0.32760416666666664" />
+        <entry key="app/src/main/res/layout/community_fragment_attention.xml" value="0.31614583333333335" />
+        <entry key="app/src/main/res/layout/community_fragment_community.xml" value="0.15989583333333332" />
+        <entry key="app/src/main/res/layout/community_fragment_recommend.xml" value="0.15989583333333332" />
+        <entry key="app/src/main/res/layout/community_item_attention_card_view.xml" value="0.31614583333333335" />
+        <entry key="app/src/main/res/layout/community_item_card_view.xml" value="0.31614583333333335" />
+        <entry key="app/src/main/res/layout/community_item_community_view.xml" value="0.31614583333333335" />
+        <entry key="app/src/main/res/layout/community_item_square_card_view.xml" value="0.31614583333333335" />
+        <entry key="app/src/main/res/layout/community_item_square_item_card_view.xml" value="0.31614583333333335" />
+        <entry key="app/src/main/res/layout/fragment_community.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_daily.xml" value="0.32760416666666664" />
         <entry key="app/src/main/res/layout/fragment_find.xml" value="0.32760416666666664" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.32760416666666664" />
         <entry key="app/src/main/res/layout/fragment_nominate.xml" value="0.32760416666666664" />
         <entry key="app/src/main/res/layout/fragment_notify.xml" value="0.32760416666666664" />
+        <entry key="app/src/main/res/layout/fragment_recommend.xml" value="0.31614583333333335" />
         <entry key="app/src/main/res/layout/fragment_user.xml" value="0.32760416666666664" />
         <entry key="app/src/main/res/layout/home_item_banner_item_view.xml" value="0.31614583333333335" />
         <entry key="app/src/main/res/layout/home_item_banner_view.xml" value="0.1" />
@@ -33,6 +42,7 @@
         <entry key="app/src/main/res/layout/single_smallvideo_item.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/layout/subject_card_view_item.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/layout/video_card_view_item.xml" value="0.2874257405598959" />
+        <entry key="app/src/main/res/layout/video_layout_cover.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/xml/network_security_config.xml" value="0.15989583333333332" />
       </map>
     </option>

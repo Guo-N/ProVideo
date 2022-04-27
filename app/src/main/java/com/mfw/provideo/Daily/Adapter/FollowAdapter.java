@@ -40,7 +40,6 @@ public class FollowAdapter extends RecyclerView.Adapter<FollowAdapter.MyViewHold
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
             holder.setFollow(follows.get(position));
-        Log.e("GY",follows.get(position)+"");
     }
 
     @Override

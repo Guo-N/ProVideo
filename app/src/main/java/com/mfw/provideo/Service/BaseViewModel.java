@@ -59,6 +59,7 @@ public abstract class BaseViewModel extends ViewModel {
         }
     }
 
+
 public LoadService service;
     public void LoadSuccessful(Class clz,List<BaseFindViewModel> viewModels){
         for(WeakReference<LoadService> weakReference:mWeakReferenceDeque){

@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment;
 
 import com.mfw.provideo.Activity.BaseActivity;
 import com.mfw.provideo.Adapter.BottomBarAdapter;
-import com.mfw.provideo.Fragment.CommuntiyFragment;
+import com.mfw.provideo.community.CommuntiyFragment;
 import com.mfw.provideo.Fragment.HomeFragment;
 import com.mfw.provideo.Fragment.NotifyFragment;
 import com.mfw.provideo.Fragment.UserFragment;
