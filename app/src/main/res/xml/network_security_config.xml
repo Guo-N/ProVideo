@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- 这里配置上域名白名单 -->
+        <domain includeSubdomains="true"> img.kaiyanapp.com</domain>
+    </domain-config>
+</network-security-config>
