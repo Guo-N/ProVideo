@@ -10,7 +10,7 @@ import com.mfw.provideo.Activity.BaseActivity;
 import com.mfw.provideo.Adapter.BottomBarAdapter;
 import com.mfw.provideo.community.CommuntiyFragment;
 import com.mfw.provideo.Fragment.HomeFragment;
-import com.mfw.provideo.Fragment.NotifyFragment;
+import com.mfw.provideo.notice.NotifyFragment;
 import com.mfw.provideo.Fragment.UserFragment;
 import com.mfw.provideo.viewmodel.MainViewModel;
 import com.mfw.provideo.databinding.ActivityMainBinding;

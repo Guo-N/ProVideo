@@ -58,7 +58,6 @@ public class AttentionAdapter extends RecyclerView.Adapter<AttentionAdapter.MyVi
     }
 public void setData(List data){
         this.data=data;
-        Log.e("GY",data+"");
 }
 
 }
