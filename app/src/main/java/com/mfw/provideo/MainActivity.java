@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment;
 
 import com.mfw.provideo.Activity.BaseActivity;
 import com.mfw.provideo.Adapter.BottomBarAdapter;
+import com.mfw.provideo.community.Adapter.ScreenAutoAdapter;
 import com.mfw.provideo.community.CommuntiyFragment;
 import com.mfw.provideo.Fragment.HomeFragment;
 import com.mfw.provideo.notice.NotifyFragment;
@@ -34,9 +35,6 @@ public class MainActivity extends BaseActivity<ActivityMainBinding, MainViewMode
     protected void onCreate(Bundle savedInstanceState) {
         initFragment();
         super.onCreate(savedInstanceState);
-        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
-//        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-//        StrictMode.setThreadPolicy(policy);
 
     }
 
@@ -62,7 +60,10 @@ public class MainActivity extends BaseActivity<ActivityMainBinding, MainViewMode
                  .setDefaultColor( getResources().getColor(R.color.black))
                  .enableAnimateLayoutChanges()
                  .build();
+        mNavigationController.setHasMessage(2, true);
+        mNavigationController.setMessageNumber(3, 6);
         adapter = new BottomBarAdapter(getSupportFragmentManager(),fragments);
+        binding.cvContentView.setOffscreenPageLimit(1);
         binding.cvContentView.setAdapter(adapter);
         mNavigationController.setupWithViewPager(binding.cvContentView);
 

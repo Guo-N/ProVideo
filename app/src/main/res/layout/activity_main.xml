@@ -29,8 +29,9 @@
             android:layout_gravity="bottom"
             android:background="@android:color/white"
             android:elevation="8dp"
-            />
-        <!--        app:layout_behavior="com.mfw.jectpackpractice.behavior.BottomNavigationBehavior"-->
+            app:layout_behavior="com.mfw.provideo.behavior.BottomNavigationBehavior"
+
+        />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 </LinearLayout>
