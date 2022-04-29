@@ -11,16 +11,16 @@ import androidx.fragment.app.Fragment;
 
 import com.mfw.provideo.R;
 
-
-public class UserFragment extends Fragment {
+public class emptyFragment extends Fragment {
 
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        return inflater.inflate(getLayout(),container,false);
+    }
 
-
-
-        return inflater.inflate(R.layout.fragment_user,null);
+    public int getLayout(){
+        return R.layout.empty_layout;
     }
 }

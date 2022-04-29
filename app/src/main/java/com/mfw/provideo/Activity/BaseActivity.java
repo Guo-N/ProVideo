@@ -34,6 +34,7 @@ public abstract class BaseActivity<V extends ViewBinding,T extends ViewModel> ex
         }catch (Exception e){
             e.printStackTrace();
         }
+//        initFragment();
         initView();
         dataObserve();
     }

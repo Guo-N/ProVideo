@@ -17,6 +17,7 @@ import com.mfw.provideo.notice.viewmodel.Message;
 import com.mfw.provideo.notice.viewmodel.MessageViewModel;
 import com.mfw.provideo.notice.viewmodel.ThemesItemViewModel;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class messageFragmentAdapter extends RecyclerView.Adapter<messageFragmentAdapter.MyViewHolder> {
@@ -28,7 +29,7 @@ public class messageFragmentAdapter extends RecyclerView.Adapter<messageFragment
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(getLauout(),parent,false);
-        FragmentMessageItemBinding binding = DataBindingUtil.bind(view);
+        binding = DataBindingUtil.bind(view);
         MyViewHolder holder = new MyViewHolder(view);
         return holder;
     }
@@ -55,6 +56,7 @@ public class messageFragmentAdapter extends RecyclerView.Adapter<messageFragment
     }
 
     public void setData(List<MessageViewModel> data){
+        this.data=new ArrayList<>();
         for(BaseFindViewModel b:data){
             if(b.getClass().equals(MessageViewModel.class)){
                 this.data.add((MessageViewModel)b);

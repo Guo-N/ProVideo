@@ -21,29 +21,41 @@ import com.mfw.provideo.notice.viewmodel.ThemesItemViewModel;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class sendFragmentAdapter extends RecyclerView.Adapter<sendFragmentAdapter.MyViewHolder> {
 
     private List<ThemesItemViewModel> data;
     private FragmentThemeContentItemBinding binding;
 
+
+    public sendFragmentAdapter(List<BaseFindViewModel> data){
+        for(BaseFindViewModel b:data){
+            if(b.getClass().equals(ThemesItemViewModel.class)){
+                this.data.add((ThemesItemViewModel)b);
+            }
+        }
+    }
+
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(getLauout(),parent,false);
-        FragmentThemeContentItemBinding binding = DataBindingUtil.bind(view);
+        binding = DataBindingUtil.bind(view);
         MyViewHolder holder = new MyViewHolder(view);
         return holder;
     }
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-                holder.setContent(data.get(position));
+        if(data==null || data.size()==0)
+            return;
+        holder.setContent(data.get(position));
     }
 
     @Override
     public int getItemCount() {
-        return data==null?0:data.size();
+        return data==null?1:data.size();
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder{
@@ -58,12 +70,13 @@ public class sendFragmentAdapter extends RecyclerView.Adapter<sendFragmentAdapte
     }
 
     public void setData(List<BaseFindViewModel> data){
-        Log.e("GY",data+"");
+        this.data=new ArrayList<>();
         for(BaseFindViewModel b:data){
             if(b.getClass().equals(ThemesItemViewModel.class)){
                 this.data.add((ThemesItemViewModel)b);
             }
         }
+
     }
 
     public int getLauout(){

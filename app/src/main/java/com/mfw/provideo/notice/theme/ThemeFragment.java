@@ -1,6 +1,7 @@
 package com.mfw.provideo.notice.theme;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import androidx.annotation.Nullable;
 
@@ -21,6 +22,10 @@ public class ThemeFragment extends BaseFragment<FragmentThemeBinding,themeViewMo
     private themeAdapter adapter;
     private Class clz;
 
+    public static ThemeFragment newInstance() {
+        ThemeFragment fragment = new ThemeFragment();
+        return fragment;
+    }
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -42,6 +47,7 @@ public class ThemeFragment extends BaseFragment<FragmentThemeBinding,themeViewMo
     public void initFragment() {
         if(viewModel == null)
             viewModel = new themeViewModel();
+        viewModel.load(clz);
     }
 
     @Override
@@ -51,7 +57,7 @@ public class ThemeFragment extends BaseFragment<FragmentThemeBinding,themeViewMo
         binding.tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
-//                binding.vpContent.setCurrentItem(tab.getPosition());
+                binding.vpContent.setCurrentItem(tab.getPosition());
             }
 
             @Override
@@ -69,12 +75,10 @@ public class ThemeFragment extends BaseFragment<FragmentThemeBinding,themeViewMo
     }
 
     @Override
-    //List<Tabs> data;
     public void LoadFinish(List data, Boolean refreshed) {
         binding.tabLayout.removeAllTabs();
-        List<BaseFindViewModel> base =data;
         List<Tabs> t=new ArrayList<>();
-        for(BaseFindViewModel b:base){
+        for(BaseFindViewModel b: (List<BaseFindViewModel>) data){
             if(b.getClass().equals(Tabs.class)){
                 t.add((Tabs)b);
             }
@@ -83,6 +87,8 @@ public class ThemeFragment extends BaseFragment<FragmentThemeBinding,themeViewMo
             @Override
             public void run() {
                 adapter.setData(data);
+//                adapter.notifyDataSetChanged();
+                adapter.notifyDataSetChanged();
                 for (Tabs tabs1 :t){
                     binding.tabLayout.addTab(binding.tabLayout.newTab().setText(tabs1.getName()));
                 }

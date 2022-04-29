@@ -27,6 +27,7 @@ public class themeContentViewModel<T> extends BaseViewModel{
 
     public void load(Class clz){
         if(url != ""){
+            if(!url.contains("https"))
             url = url.replace("http","https");
             aClass = clz;
             OkHttpClient client = new OkHttpClient();

@@ -14,6 +14,8 @@
         <entry key="app/src/main/res/layout/community_item_community_view.xml" value="0.31614583333333335" />
         <entry key="app/src/main/res/layout/community_item_square_card_view.xml" value="0.31614583333333335" />
         <entry key="app/src/main/res/layout/community_item_square_item_card_view.xml" value="0.31614583333333335" />
+        <entry key="app/src/main/res/layout/empty_layout.xml" value="0.23550724637681159" />
+        <entry key="app/src/main/res/layout/footer.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/layout/fragment_community.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_daily.xml" value="0.32760416666666664" />
         <entry key="app/src/main/res/layout/fragment_find.xml" value="0.32760416666666664" />
@@ -27,7 +29,7 @@
         <entry key="app/src/main/res/layout/fragment_send.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/layout/fragment_theme.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/layout/fragment_theme_content.xml" value="0.31614583333333335" />
-        <entry key="app/src/main/res/layout/fragment_theme_content_item.xml" value="0.15989583333333332" />
+        <entry key="app/src/main/res/layout/fragment_theme_content_item.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_user.xml" value="0.32760416666666664" />
         <entry key="app/src/main/res/layout/home_item_banner_item_view.xml" value="0.31614583333333335" />
         <entry key="app/src/main/res/layout/home_item_banner_view.xml" value="0.1" />
@@ -48,6 +50,8 @@
         <entry key="app/src/main/res/layout/single_follow_item.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/layout/single_smallvideo_item.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/layout/subject_card_view_item.xml" value="0.15989583333333332" />
+        <entry key="app/src/main/res/layout/user_fragment_item.xml" value="0.15989583333333332" />
+        <entry key="app/src/main/res/layout/user_fragment_layout.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/layout/video_card_view_item.xml" value="0.2874257405598959" />
         <entry key="app/src/main/res/layout/video_layout_cover.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/xml/network_security_config.xml" value="0.15989583333333332" />

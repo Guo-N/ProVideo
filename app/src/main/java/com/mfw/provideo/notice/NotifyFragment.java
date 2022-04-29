@@ -30,14 +30,15 @@ public class NotifyFragment extends BaseFragment<FragmentNoticeBinding, HomeView
     @Override
     public void initFragment() {
         data = new ArrayList<>();
-        data.add(new ThemeFragment());
-        data.add(new messageFragment());
-        data.add(new sendFragment());
-//        data.add();
+        data.add(ThemeFragment.newInstance());
+        data.add(messageFragment.newInstance());
+        data.add(sendFragment.newInstance());
     }
 
     @Override
     public void initView() {
+        adapter = new notifyFragmentAdapter(getChildFragmentManager(),data);
+        binding.vpHomeContent.setAdapter(adapter);
         binding.tabLayout.setupWithViewPager(binding.vpHomeContent);
         binding.vpHomeContent.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(binding.tabLayout));
         binding.tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
@@ -56,8 +57,5 @@ public class NotifyFragment extends BaseFragment<FragmentNoticeBinding, HomeView
 
             }
         });
-        adapter = new notifyFragmentAdapter(getChildFragmentManager());
-        adapter.setData(data);
-        binding.vpHomeContent.setAdapter(adapter);
     }
 }

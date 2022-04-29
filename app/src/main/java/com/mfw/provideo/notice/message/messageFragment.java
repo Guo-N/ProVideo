@@ -1,6 +1,7 @@
 package com.mfw.provideo.notice.message;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -11,6 +12,7 @@ import com.mfw.provideo.R;
 import com.mfw.provideo.Service.LoadService;
 import com.mfw.provideo.databinding.FragmentMessageBinding;
 import com.mfw.provideo.databinding.FragmentSendBinding;
+import com.mfw.provideo.notice.Adapter.messageFragmentAdapter;
 import com.mfw.provideo.notice.Adapter.sendFragmentAdapter;
 import com.mfw.provideo.notice.send.sendViewModel;
 import com.scwang.smart.refresh.footer.ClassicsFooter;
@@ -24,9 +26,14 @@ import java.util.List;
 public class messageFragment extends BaseFragment<FragmentSendBinding, sendViewModel> implements LoadService {
 
 
-    private sendFragmentAdapter adapter=new sendFragmentAdapter();
+    private messageFragmentAdapter adapter=new messageFragmentAdapter();
     private Class clz;
 
+    public static messageFragment newInstance() {
+
+        messageFragment fragment = new messageFragment();
+        return fragment;
+    }
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {

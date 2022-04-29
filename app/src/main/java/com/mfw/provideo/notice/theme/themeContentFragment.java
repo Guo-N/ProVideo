@@ -58,6 +58,7 @@ public class themeContentFragment extends BaseFragment<FragmentThemeContentBindi
             name = getArguments().getString("name");
             url = getArguments().getString("url");
         }
+        viewModel.load(clz);
     }
 
     @Override

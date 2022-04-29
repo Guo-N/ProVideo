@@ -1,5 +1,7 @@
 package com.mfw.provideo.notice.theme;
 
+import android.util.Log;
+
 import com.mfw.provideo.notice.viewmodel.TabInfo;
 import com.mfw.provideo.notice.viewmodel.Tabs;
 import com.mfw.provideo.Service.BaseFindViewModel;

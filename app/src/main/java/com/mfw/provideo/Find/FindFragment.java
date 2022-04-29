@@ -26,7 +26,6 @@ public class FindFragment extends BaseFragment<FragmentFindBinding,HomeViewModel
 
     private FindAdapter adapter = new FindAdapter();
     private Class clz;
-    private FragmentFindBinding VDbinding;
     public static FindFragment newInstance(){
         return new FindFragment();
     }
