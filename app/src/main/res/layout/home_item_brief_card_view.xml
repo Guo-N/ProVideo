@@ -4,16 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-<!--        <variable-->
-<!--            name="viewModel"-->
-<!--            type="com.mfw.provideo.ViewModel.BriefCardViewModel" />-->
+
     </data>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
+
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="40dp">
@@ -44,18 +43,20 @@
                 tools:text="查看往期" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
+
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_briefCard_view"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginBottom="10dp"
             android:layout_width="match_parent"
-            android:layout_height="250dp"/>
-
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@android:color/darker_gray"
             />
+
     </LinearLayout>
 </layout>

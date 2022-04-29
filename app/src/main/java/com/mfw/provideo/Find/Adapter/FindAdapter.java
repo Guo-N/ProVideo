@@ -148,7 +148,6 @@ public class FindAdapter extends RecyclerView.Adapter<FindAdapter.MyViewHolder> 
     public void initbriefCard(View view) {
         if (data != null && data.size() != 0) {
             TitleViewModel titleViewModel = (TitleViewModel) data.get(9);
-//            BriefCardViewItemBinding binding = (BriefCardViewItemBinding)bindings[4];
             HomeItemBriefCardViewBinding binding = (HomeItemBriefCardViewBinding) bindings[4];
             if (binding != null) {
                 binding.tvTitle.setText(titleViewModel.title);

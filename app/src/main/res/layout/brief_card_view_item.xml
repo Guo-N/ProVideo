@@ -4,16 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-                <variable
-                    name="viewModel"
-                    type="com.mfw.provideo.viewmodel.BriefCardViewModel" />
+        <variable
+            name="viewModel"
+            type="com.mfw.provideo.viewmodel.BriefCardViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="90dp">
-
-
 
         <ImageView
             android:id="@+id/iv_cover"
@@ -81,7 +79,9 @@
             android:text="+关注"
             app:layout_constraintBottom_toBottomOf="@+id/iv_cover"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/iv_cover" />
+            app:layout_constraintTop_toTopOf="@+id/iv_cover"
+            android:textColor="@color/black"
+            />
 
 
         <View
