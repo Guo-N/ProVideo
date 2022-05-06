@@ -48,14 +48,72 @@
         <entry key="app/src/main/res/layout/home_notimate_follow_item.xml" value="0.31614583333333335" />
         <entry key="app/src/main/res/layout/nominate_banner_view_item.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/layout/nominate_singal_item.xml" value="0.15989583333333332" />
+        <entry key="app/src/main/res/layout/player_activity_video_player.xml" value="0.15989583333333332" />
+        <entry key="app/src/main/res/layout/player_item_footer_white_view.xml" value="0.15989583333333332" />
+        <entry key="app/src/main/res/layout/player_item_reply_view.xml" value="0.15989583333333332" />
+        <entry key="app/src/main/res/layout/player_item_title_white_view.xml" value="0.15989583333333332" />
+        <entry key="app/src/main/res/layout/player_item_video_card_white_view.xml" value="0.15989583333333332" />
+        <entry key="app/src/main/res/layout/player_item_video_header_view.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/layout/single_follow_item.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/layout/single_smallvideo_item.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/layout/subject_card_view_item.xml" value="0.15989583333333332" />
+        <entry key="app/src/main/res/layout/user_empty_layout.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/layout/user_fragment_item.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/layout/user_fragment_layout.xml" value="0.15989583333333332" />
+        <entry key="app/src/main/res/layout/userempty_layout.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/layout/video_card_view_item.xml" value="0.2874257405598959" />
         <entry key="app/src/main/res/layout/video_layout_cover.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/xml/network_security_config.xml" value="0.15989583333333332" />
+        <entry key="communitymodule/src/main/res/layout/community_fragment_attention.xml" value="0.15989583333333332" />
+        <entry key="communitymodule/src/main/res/layout/community_item_attention_card_view.xml" value="0.15989583333333332" />
+        <entry key="communitymodule/src/main/res/layout/community_item_card_view.xml" value="0.15989583333333332" />
+        <entry key="communitymodule/src/main/res/layout/community_item_community_view.xml" value="0.15989583333333332" />
+        <entry key="communitymodule/src/main/res/layout/community_item_square_card_view.xml" value="0.15989583333333332" />
+        <entry key="communitymodule/src/main/res/layout/community_item_square_item_card_view.xml" value="0.15989583333333332" />
+        <entry key="communitymodule/src/main/res/layout/fragment_recommend.xml" value="0.15989583333333332" />
+        <entry key="communitymodule/src/main/res/layout/video_layout_cover.xml" value="0.15989583333333332" />
+        <entry key="homemodel/src/main/res/drawable/home_shape_border_btn_bg.xml" value="0.169" />
+        <entry key="homemodel/src/main/res/layout/brief_card_view_item.xml" value="0.15989583333333332" />
+        <entry key="homemodel/src/main/res/layout/category_card_view_item.xml" value="0.31614583333333335" />
+        <entry key="homemodel/src/main/res/layout/community_fragment_attention.xml" value="0.15989583333333332" />
+        <entry key="homemodel/src/main/res/layout/community_item_attention_card_view.xml" value="0.15989583333333332" />
+        <entry key="homemodel/src/main/res/layout/footer.xml" value="0.15989583333333332" />
+        <entry key="homemodel/src/main/res/layout/fragment_daily.xml" value="0.31614583333333335" />
+        <entry key="homemodel/src/main/res/layout/fragment_find.xml" value="0.15989583333333332" />
+        <entry key="homemodel/src/main/res/layout/fragment_home.xml" value="0.15989583333333332" />
+        <entry key="homemodel/src/main/res/layout/fragment_nominate.xml" value="0.15989583333333332" />
+        <entry key="homemodel/src/main/res/layout/fragment_recommend.xml" value="0.15989583333333332" />
+        <entry key="homemodel/src/main/res/layout/home_item_banner_view.xml" value="0.31614583333333335" />
+        <entry key="homemodel/src/main/res/layout/home_item_brief_card_view.xml" value="0.15989583333333332" />
+        <entry key="homemodel/src/main/res/layout/home_item_catatory_card_view.xml" value="0.15989583333333332" />
+        <entry key="homemodel/src/main/res/layout/home_item_daily_item.xml" value="0.221875" />
+        <entry key="homemodel/src/main/res/layout/home_item_notimate_follow.xml" value="0.15989583333333332" />
+        <entry key="homemodel/src/main/res/layout/home_item_single_title_view.xml" value="0.15989583333333332" />
+        <entry key="homemodel/src/main/res/layout/home_item_subject_card_view.xml" value="0.15989583333333332" />
+        <entry key="homemodel/src/main/res/layout/home_item_video_card_view.xml" value="0.15989583333333332" />
+        <entry key="homemodel/src/main/res/layout/home_nominate_banner_view.xml" value="0.15989583333333332" />
+        <entry key="homemodel/src/main/res/layout/home_nominate_follow_card_item.xml" value="0.15989583333333332" />
+        <entry key="homemodel/src/main/res/layout/nominate_singal_item.xml" value="0.31614583333333335" />
+        <entry key="homemodel/src/main/res/layout/single_follow_item.xml" value="0.15989583333333332" />
+        <entry key="homemodel/src/main/res/layout/single_smallvideo_item.xml" value="0.15989583333333332" />
+        <entry key="homemodel/src/main/res/layout/subject_card_view_item.xml" value="0.31614583333333335" />
+        <entry key="homemodel/src/main/res/layout/video_card_view_item.xml" value="0.31614583333333335" />
+        <entry key="homemodel/src/main/res/layout/video_layout_cover.xml" value="0.15989583333333332" />
+        <entry key="homemodule/src/main/res/layout/fragment_nominate.xml" value="0.15989583333333332" />
+        <entry key="homemodule/src/main/res/layout/home_item_notimate_follow.xml" value="0.15989583333333332" />
+        <entry key="mainmodule/src/main/res/layout/activity_main.xml" value="0.1598731884057971" />
+        <entry key="mainmodule/src/main/res/layout/home_item_single_title_view.xml" value="0.15989583333333332" />
+        <entry key="notifymodule/src/main/res/layout/empty_layout.xml" value="0.15989583333333332" />
+        <entry key="notifymodule/src/main/res/layout/fragment_message.xml" value="0.15989583333333332" />
+        <entry key="notifymodule/src/main/res/layout/fragment_message_item.xml" value="0.15989583333333332" />
+        <entry key="notifymodule/src/main/res/layout/fragment_notice.xml" value="0.15989583333333332" />
+        <entry key="notifymodule/src/main/res/layout/fragment_send.xml" value="0.15989583333333332" />
+        <entry key="notifymodule/src/main/res/layout/fragment_theme.xml" value="0.15989583333333332" />
+        <entry key="notifymodule/src/main/res/layout/fragment_theme_content.xml" value="0.15989583333333332" />
+        <entry key="notifymodule/src/main/res/layout/fragment_theme_content_item.xml" value="0.15989583333333332" />
+        <entry key="usermodule/src/main/res/layout/footer.xml" value="0.15989583333333332" />
+        <entry key="usermodule/src/main/res/layout/user_fragment_item.xml" value="0.15989583333333332" />
+        <entry key="usermodule/src/main/res/layout/userempty_layout.xml" value="0.31614583333333335" />
       </map>
     </option>
   </component>

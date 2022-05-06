@@ -19,3 +19,9 @@ dependencyResolutionManagement {
 }
 rootProject.name = "ProVideo"
 include ':app'
+include ':homemodule'
+include ':communitymodule'
+include ':notifymodule'
+include ':usermodule'
+include ':mainmodule'
+include ':commonmodule'

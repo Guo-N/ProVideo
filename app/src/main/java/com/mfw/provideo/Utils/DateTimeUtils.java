@@ -1,14 +1,14 @@
 package com.mfw.provideo.Utils;
 
+import android.text.format.DateFormat;
+import android.text.format.DateUtils;
+import android.text.format.Time;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
-
-import android.text.format.DateFormat;
-import android.text.format.DateUtils;
-import android.text.format.Time;
 
 /**
  * <b>类名称：</b> DateTimeUtils <br/>
